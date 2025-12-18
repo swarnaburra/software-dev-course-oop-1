@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa754f57-8d3f-447f-aa0e-728017f07765" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Teacher.java" afterDir="false" />
+    </list>
+    <list id="0487abd3-0f72-4ef4-951b-e4d802eaf0ee" name="Changes by Afnea" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Teacher.java" afterDir="false" />
+    </list>
+    <list id="cdb68780-ad8c-454b-9f2e-fa5cbe6191c9" name="Changes by sarat" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +31,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "joshliford"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/joshliford/software-dev-course-oop-1.git",
+    "accountId": "8f474295-6647-4719-90f8-90896f54c9e4"
+  }
+}]]></component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/org/example/Teacher.java">
+      <ranges>
+        <range start1="6" end1="6" start2="6" end2="8" changelist="fa754f57-8d3f-447f-aa0e-728017f07765" />
+        <range start1="8" end1="8" start2="10" end2="14" changelist="fa754f57-8d3f-447f-aa0e-728017f07765" />
+        <range start1="10" end1="10" start2="16" end2="24" changelist="fa754f57-8d3f-447f-aa0e-728017f07765" />
+        <range start1="12" end1="12" start2="26" end2="33" changelist="fa754f57-8d3f-447f-aa0e-728017f07765" />
+        <range start1="15" end1="15" start2="36" end2="41" changelist="0487abd3-0f72-4ef4-951b-e4d802eaf0ee" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/org/example/Student.java">
+      <ranges>
+        <range start1="42" end1="42" start2="42" end2="46" changelist="0487abd3-0f72-4ef4-951b-e4d802eaf0ee" />
+        <range start1="43" end1="43" start2="47" end2="51" changelist="cdb68780-ad8c-454b-9f2e-fa5cbe6191c9" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -35,6 +72,7 @@
   "keyToString": {
     "Application.ClassroomManager.executor": "Run",
     "JUnit.All in software-dev-course-oop-1.executor": "Run",
+    "JUnit.TeacherTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -43,7 +81,7 @@
     "last_opened_file_path": "/home/mikel/projects/java-new-curriculum/software-dev-course-oop-2/pom.xml"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ClassroomManager">
+  <component name="RunManager">
     <configuration name="ClassroomManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ClassroomManager" />
       <module name="software-dev-course-oop-1" />
@@ -65,8 +103,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TeacherTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-dev-course-oop-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TeacherTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TeacherTests" />
         <item itemvalue="Application.ClassroomManager" />
         <item itemvalue="JUnit.All in software-dev-course-oop-1" />
       </list>
