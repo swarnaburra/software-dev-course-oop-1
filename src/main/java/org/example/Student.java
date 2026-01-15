@@ -6,6 +6,12 @@ public class Student {
     private int daysAbsent;
 
     public Student(String name, double grade, int daysAbsent) {
+        if (grade < 0) {
+            throw new RuntimeException("Grade cannot be negative");
+        }
+        if (daysAbsent < 0) {
+            throw new RuntimeException("Days absent cannot be negative");
+        }
         this.name = name;
         this.grade = grade;
         this.daysAbsent = daysAbsent;
@@ -23,16 +29,23 @@ public class Student {
         this.name = name;
     }
 
-    public void setGrade(double grade) {
+        public void setGrade(double grade) {
+        if (grade < 0) {
+            throw new RuntimeException("Grade cannot be negative");
+        }
         this.grade = grade;
     }
 
     public int getDaysAbsent() {
+
         return daysAbsent;
     }
 
     public void setDaysAbsent(int daysAbsent) {
-        this.daysAbsent = daysAbsent;
+      if (daysAbsent < 0) {
+          throw new RuntimeException("Days absent cannot be negative");
+      }
+      this.daysAbsent = daysAbsent;
     }
 
     public String toString() {

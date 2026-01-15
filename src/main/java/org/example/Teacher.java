@@ -9,26 +9,39 @@ public class Teacher {
 
     // Add a constructor that takes a name and className and initializes the corresponding fields
     public Teacher(String name, String className) {
+
+        if(className == null) {
+
+            throw new RuntimeException("Class name cannot be null");
+        }
+
         this.name = name;
         this.className = className;
     }
 
     // Add getter methods for name and className
     public String getName() {
+
         return name;
     }
 
     public String getClassName() {
+
         return className;
     }
 
 
     // Add setter methods for name and className
     public void setName(String name) {
+
         this.name = name;
     }
 
     public void setClassName(String className) {
+        if (className == null){
+
+            throw new RuntimeException("Class name cannot be null");
+        }
         this.className = className;
     }
 
@@ -37,6 +50,7 @@ public class Teacher {
 
     @Override
     public String toString() {
+
         return name + " ("+className+")";
     }
 }

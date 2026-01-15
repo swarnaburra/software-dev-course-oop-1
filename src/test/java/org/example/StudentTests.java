@@ -43,4 +43,31 @@ public class StudentTests {
         student.addBonusPoints(5.0);
         assertEquals(95.0, student.getGrade(), 0.0);
     }
+
+    // Negative Test Case
+
+    @Test
+
+    public void testDaysAbsentIsNegative(){
+
+        try{
+            Student student = new Student("Alice", 90.0, -1);
+
+            fail("Expected RuntimeException for negative daysAbsent");
+        } catch (RuntimeException e) {
+            assertEquals("Days absent cannot be negative", e.getMessage());
+        }
+
+    }
+
+    // Edge Test Case
+    @Test
+    public void testStudentZeroGradeAndAbsences() {
+        Student student = new Student("Charlie", 0.0, 0);
+        assertEquals("Charlie", student.getName());
+        assertEquals(0.0, student.getGrade(), 0.0);
+        assertEquals(0, student.getDaysAbsent());
+        assertEquals("Charlie 0.0", student.toString());
+    }
+
 }
